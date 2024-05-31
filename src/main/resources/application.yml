@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: TodoManagement
+  jpa:
+    hibernate:
+      ddl-auto: none
+jwt:
+  secret: "daf66e01593f61a15b857cf433aae03a005812b31234e149036bcc8dee755dbb"
+  expiration: 3600 # Token expiration time in seconds
+  issuer: "http://localhost:8080"
+  audience: "http://localhost:3000"
+
+
